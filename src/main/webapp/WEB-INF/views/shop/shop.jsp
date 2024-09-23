@@ -51,9 +51,9 @@
         <!-- 메인 페이지 -->
         <!-- 음식점 페이지 -->
         <section class="shop-container">
-        	<div class="left-sidebar">
+        	<div class="left-sidebar text-center fw-bolder">
         		<div class="title">
-        			<h3><span class='hashtag'>#</span>흑백요리사</h3>
+        			<h4><span class='hashtag'>#</span>흑백요리사</h4>
         		</div>
         		<div class="button">
         			<!-- 버튼 호버 시 설명창 팝업 -->
@@ -63,32 +63,130 @@
         			<p>Netflix 흑백요리사 프로그램에 출연한 100인의 요리사들이 운영하는 식당을 지도에 표시합니다.</p>
         		</div>
         	</div>
-        	<div class="shop-center">
-        		<div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://kr.object.ncloudstorage.com/dmz/restaurant/d60b67e61c10.webp" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">전주비빔소리</h5>
-                                    <!-- Product price-->
-                                    전주시 덕진구
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
-                            </div>
-                        </div>
-                    </div>
+        	<div class="shop-center py-5">
+        		<div class="container px-4 px-lg-5 mt-5">
+	        		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-3 justify-content-center">
+		        		<div class="col mb-5">
+	                        <div class="card h-100">
+	                            <!-- Product image-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="..." />
+	                            <!-- Product details-->
+	                            <div class="card-body p-4">
+	                                <div class="text-center">
+	                                    <!-- Product name-->
+	                                    <h5 class="fw-bolder">전주비빔소리</h5>
+	                                    <!-- Product price-->
+	                                    전주시 덕진구
+	                                </div>
+	                            </div>
+	                            <!-- Product actions-->
+	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            </div>
+	                        </div>
+						</div>
+		        		<div class="col mb-5">
+	                        <div class="card h-100">
+	                            <!-- Product image-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F_5F2yeE-Jj0%2Fmqdefault.jpg&w=640&q=75" alt="..." />
+	                            <!-- Product details-->
+	                            <div class="card-body p-4">
+	                                <div class="text-center">
+	                                    <!-- Product name-->
+	                                    <h5 class="fw-bolder">전주비빔소리</h5>
+	                                    <!-- Product price-->
+	                                    전주시 덕진구
+	                                </div>
+	                            </div>
+	                            <!-- Product actions-->
+	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            </div>
+	                        </div>
+						</div>
+		        		<div class="col mb-5">
+	                        <div class="card h-100">
+	                            <!-- Product image-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2FEWX5GAao4ZE%2Fmqdefault.jpg&w=640&q=75" alt="..." />
+	                            <!-- Product details-->
+	                            <div class="card-body p-4">
+	                                <div class="text-center">
+	                                    <!-- Product name-->
+	                                    <h5 class="fw-bolder">전주비빔소리</h5>
+	                                    <!-- Product price-->
+	                                    전주시 덕진구
+	                                </div>
+	                            </div>
+	                            <!-- Product actions-->
+	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            </div>
+	                        </div>
+						</div>
+		        		<div class="col mb-5">
+	                        <div class="card h-100">
+	                            <!-- Product image-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2Fwi9uBAYxdN4%2Fmqdefault.jpg&w=640&q=75" alt="..." />
+	                            <!-- Product details-->
+	                            <div class="card-body p-4">
+	                                <div class="text-center">
+	                                    <!-- Product name-->
+	                                    <h5 class="fw-bolder">전주비빔소리</h5>
+	                                    <!-- Product price-->
+	                                    전주시 덕진구
+	                                </div>
+	                            </div>
+	                            <!-- Product actions-->
+	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            </div>
+	                        </div>
+						</div>
+		        		<div class="col mb-5">
+	                        <div class="card h-100">
+	                            <!-- Product image-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F1TmG1Wwb7_U%2Fmqdefault.jpg&w=640&q=75" alt="..." />
+	                            <!-- Product details-->
+	                            <div class="card-body p-4">
+	                                <div class="text-center">
+	                                    <!-- Product name-->
+	                                    <h5 class="fw-bolder">전주비빔소리</h5>
+	                                    <!-- Product price-->
+	                                    전주시 덕진구
+	                                </div>
+	                            </div>
+	                            <!-- Product actions-->
+	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            </div>
+	                        </div>
+						</div>
+		        		<div class="col mb-5">
+	                        <div class="card h-100">
+	                            <!-- Product image-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2FFpnRPY9Rfdo%2Fmqdefault.jpg&w=640&q=75" alt="..." />
+	                            <!-- Product details-->
+	                            <div class="card-body p-4">
+	                                <div class="text-center">
+	                                    <!-- Product name-->
+	                                    <h5 class="fw-bolder">전주비빔소리</h5>
+	                                    <!-- Product price-->
+	                                    전주시 덕진구
+	                                </div>
+	                            </div>
+	                            <!-- Product actions-->
+	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            </div>
+	                        </div>
+						</div>
+					</div>
+				</div>
         	</div>
         	<div class="right-sidebar">
-        		<div class="title">
-        			<h3>대구/경북 이달의 맛집</h3>
+        		<div class="title text-center fw-bolder">
+        			<h4>이달의 맛집 순위</h4>
         		</div>
-        		<div class></div>
         	</div>
         </section>
         <!-- 양식 -->
