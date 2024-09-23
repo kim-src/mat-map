@@ -11,4 +11,9 @@ public class MainController {
 		return "shop/shop";
 	}
 	
+	@GetMapping(value="/sidebar.com")
+	public String getSidebar() {
+		return "sample/sidebar-sample";
+	}
+	
 }

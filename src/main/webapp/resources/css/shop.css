@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* 레이아웃 */
+.shop-container {
+	display: flex;
+}
+
+.left-sidebar {
+	flex: 1;
+	margin-top: 100px;
+}
+
+.right-sidebar {
+	flex: 1;
+	margin-top: 100px;
+}
+
+.shop-center {
+	flex: 3;
+}
+
+
+/* 기본 스타일 */
+.hashtag {
+	margin-right: 0.5rem;
+}
+
+.title {
+	margin-left: 2rem;
+	width: 200px;
+}
+
+.button {
+	margin-top: 1rem;
+	margin-left: -2.5rem;
+	text-align: center;
+}

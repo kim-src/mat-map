@@ -13,8 +13,9 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="${pageContext.request.contextPath}/resources/css/shop.css" rel="stylesheet" />
+        <link href="${pageContext.request.contextPath}/resources/css/basic.css" rel="stylesheet" />
         <link href="${pageContext.request.contextPath}/resources/css/styles.css" rel="stylesheet" />
-        <link href="${pageContext.request.contextPath}/resources/css/left-sidebar.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigation-->
@@ -48,15 +49,49 @@
         </nav>
         <!-- Header-->
         <!-- 메인 페이지 -->
-        <!-- Section-->
-        <div class="left-sidebar">
-        	<div>
-        		<h3>흑백요리사 음식점</h3>
+        <!-- 음식점 페이지 -->
+        <section class="shop-container">
+        	<div class="left-sidebar">
+        		<div class="title">
+        			<h3><span class='hashtag'>#</span>흑백요리사</h3>
+        		</div>
+        		<div class="button">
+        			<!-- 버튼 호버 시 설명창 팝업 -->
+        			<button>설명 보기</button>
+        		</div>
+				<div class="none">
+        			<p>Netflix 흑백요리사 프로그램에 출연한 100인의 요리사들이 운영하는 식당을 지도에 표시합니다.</p>
+        		</div>
         	</div>
-        	<div>
-        		<p>Netflix 흑백요리사 프로그램에 출연한 100인의 요리사들이 운영하는 식당을 지도에 표시합니다.</p>
+        	<div class="shop-center">
+        		<div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://kr.object.ncloudstorage.com/dmz/restaurant/d60b67e61c10.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">전주비빔소리</h5>
+                                    <!-- Product price-->
+                                    전주시 덕진구
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+                            </div>
+                        </div>
+                    </div>
         	</div>
-        </div>
+        	<div class="right-sidebar">
+        		<div class="title">
+        			<h3>대구/경북 이달의 맛집</h3>
+        		</div>
+        		<div class></div>
+        	</div>
+        </section>
+        <!-- 양식 -->
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -258,8 +293,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="right-sidebar">
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
