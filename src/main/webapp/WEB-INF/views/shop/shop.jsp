@@ -51,9 +51,9 @@
         <!-- 메인 페이지 -->
         <!-- 음식점 페이지 -->
         <section class="shop-container">
-        	<div class="left-sidebar text-center fw-bolder">
-        		<div class="title">
-        			<h4><span class='hashtag'>#</span>흑백요리사</h4>
+        	<div class="left-sidebar text-center">
+        		<div class="title fw-bolder">
+        			<span class='hashtag'>#</span>흑백요리사
         		</div>
         		<div class="button">
         			<!-- 버튼 호버 시 설명창 팝업 -->
@@ -63,334 +63,205 @@
         			<p>Netflix 흑백요리사 프로그램에 출연한 100인의 요리사들이 운영하는 식당을 지도에 표시합니다.</p>
         		</div>
         	</div>
-        	<div class="shop-center py-5">
-        		<div class="container px-4 px-lg-5 mt-5">
-	        		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-3 justify-content-center">
+        	<div class="shop-center">
+        		<div class="card-shop-center">
+	        		<div class="row row-cols-md-3 row-cols-xl-4">
 		        		<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <!-- Product image-->
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="..." />
-	                            <!-- Product details-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <!-- Product name-->
-	                                    <h5 class="fw-bolder">전주비빔소리</h5>
-	                                    <!-- Product price-->
-	                                    전주시 덕진구
+	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
+	                                    <div class="text">전주시 덕진구</div>
 	                                </div>
 	                            </div>
-	                            <!-- Product actions-->
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            	<div class="pictogram-container text-center">
+	                            		<div class="pictogram-img-row">
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/138/138533.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/447/447031.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/20/20176.png" alt="pictogram"/>
+	                            		</div>
+	                            		<div>
+	                            			<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">관심</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">위치</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">소개</a></span>
+	                            		</div>
+	                            	</div>
 	                            </div>
 	                        </div>
 						</div>
 		        		<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <!-- Product image-->
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F_5F2yeE-Jj0%2Fmqdefault.jpg&w=640&q=75" alt="..." />
-	                            <!-- Product details-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <!-- Product name-->
-	                                    <h5 class="fw-bolder">전주비빔소리</h5>
-	                                    <!-- Product price-->
-	                                    전주시 덕진구
+	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
+	                                    <div class="text">전주시 덕진구</div>
 	                                </div>
 	                            </div>
-	                            <!-- Product actions-->
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            	<div class="pictogram-container text-center">
+	                            		<div class="pictogram-img-row">
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/138/138533.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/447/447031.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/20/20176.png" alt="pictogram"/>
+	                            		</div>
+	                            		<div>
+	                            			<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">관심</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">위치</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">소개</a></span>
+	                            		</div>
+	                            	</div>
 	                            </div>
 	                        </div>
 						</div>
-		        		<div class="col mb-5">
+						<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <!-- Product image-->
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2FEWX5GAao4ZE%2Fmqdefault.jpg&w=640&q=75" alt="..." />
-	                            <!-- Product details-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <!-- Product name-->
-	                                    <h5 class="fw-bolder">전주비빔소리</h5>
-	                                    <!-- Product price-->
-	                                    전주시 덕진구
+	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
+	                                    <div class="text">전주시 덕진구</div>
 	                                </div>
 	                            </div>
-	                            <!-- Product actions-->
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            	<div class="pictogram-container text-center">
+	                            		<div class="pictogram-img-row">
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/138/138533.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/447/447031.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/20/20176.png" alt="pictogram"/>
+	                            		</div>
+	                            		<div>
+	                            			<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">관심</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">위치</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">소개</a></span>
+	                            		</div>
+	                            	</div>
 	                            </div>
 	                        </div>
 						</div>
-		        		<div class="col mb-5">
+						<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <!-- Product image-->
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2Fwi9uBAYxdN4%2Fmqdefault.jpg&w=640&q=75" alt="..." />
-	                            <!-- Product details-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <!-- Product name-->
-	                                    <h5 class="fw-bolder">전주비빔소리</h5>
-	                                    <!-- Product price-->
-	                                    전주시 덕진구
+	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
+	                                    <div class="text">전주시 덕진구</div>
 	                                </div>
 	                            </div>
-	                            <!-- Product actions-->
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            	<div class="pictogram-container text-center">
+	                            		<div class="pictogram-img-row">
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/138/138533.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/447/447031.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/20/20176.png" alt="pictogram"/>
+	                            		</div>
+	                            		<div>
+	                            			<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">관심</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">위치</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">소개</a></span>
+	                            		</div>
+	                            	</div>
 	                            </div>
 	                        </div>
 						</div>
-		        		<div class="col mb-5">
+						<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <!-- Product image-->
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F1TmG1Wwb7_U%2Fmqdefault.jpg&w=640&q=75" alt="..." />
-	                            <!-- Product details-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <!-- Product name-->
-	                                    <h5 class="fw-bolder">전주비빔소리</h5>
-	                                    <!-- Product price-->
-	                                    전주시 덕진구
+	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
+	                                    <div class="text">전주시 덕진구</div>
 	                                </div>
 	                            </div>
-	                            <!-- Product actions-->
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            	<div class="pictogram-container text-center">
+	                            		<div class="pictogram-img-row">
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/138/138533.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/447/447031.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/20/20176.png" alt="pictogram"/>
+	                            		</div>
+	                            		<div>
+	                            			<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">관심</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">위치</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">소개</a></span>
+	                            		</div>
+	                            	</div>
 	                            </div>
 	                        </div>
 						</div>
-		        		<div class="col mb-5">
+						<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <!-- Product image-->
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2FFpnRPY9Rfdo%2Fmqdefault.jpg&w=640&q=75" alt="..." />
-	                            <!-- Product details-->
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <!-- Product name-->
-	                                    <h5 class="fw-bolder">전주비빔소리</h5>
-	                                    <!-- Product price-->
-	                                    전주시 덕진구
+	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
+	                                    <div class="text">전주시 덕진구</div>
 	                                </div>
 	                            </div>
-	                            <!-- Product actions-->
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-	                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">음식점 방문</a></div>
+	                            	<div class="pictogram-container text-center">
+	                            		<div class="pictogram-img-row">
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/138/138533.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/447/447031.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/20/20176.png" alt="pictogram"/>
+	                            		</div>
+	                            		<div>
+	                            			<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">관심</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">위치</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">소개</a></span>
+	                            		</div>
+	                            	</div>
 	                            </div>
 	                        </div>
 						</div>
 					</div>
 				</div>
         	</div>
-        	<div class="right-sidebar">
-        		<div class="title text-center fw-bolder">
-        			<h4>이달의 맛집 순위</h4>
+        	<div class="right-sidebar text-center">
+        		<div class="title fw-bolder">
+        			<span class='hashtag'>#</span>오늘의 맛집
+        		</div>
+        		<div class="card-sidebar size">
+        			<!-- 카드에서 관심 점수가 높은 순위로 내림차순 정렬 -->
+        			<!-- 비율 12:7, 최대 360*210 -->
+        			<!-- 카드 사진 / 매장명 / 하트 그림 / 지도 그림 / 집 그림 / '000' / '위치' / '소개' -->
+        			<div class="col mb-5">
+	                        <div class="card h-100">
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
+	                            <div class="card-body p-4">
+	                                <div class="text-center">
+	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
+	                                    <div class="text">전주시 덕진구</div>
+	                                </div>
+	                            </div>
+	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+	                            	<div class="pictogram-container text-center">
+	                            		<div class="pictogram-img-row">
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/138/138533.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/447/447031.png" alt="pictogram"/>
+	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/20/20176.png" alt="pictogram"/>
+	                            		</div>
+	                            		<div>
+	                            			<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">관심</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">위치</a></span>
+			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">소개</a></span>
+	                            		</div>
+	                            	</div>
+	                            </div>
+	                        </div>
+						</div>
+        		</div>
+        		<div class="title fw-bolder">
+        			<span class='hashtag'>#</span>오늘의 메뉴
+        		</div>
+        		<div class="card-sidebar">
+        			<!-- 카드에서 관심 점수가 높은 순위로 내림차순 정렬 -->
+        			<!-- 비율 12:7, 최대 360*210 -->
+        			<!-- 카드 사진 / 매장명 / 하트 그림 / 지도 그림 / 집 그림 / '000' / '위치' / '소개' -->
         		</div>
         	</div>
-        </section>
-        <!-- 양식 -->
-        <section class="py-5">
-            <div class="container px-4 px-lg-5 mt-5">
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Fancy Product</h5>
-                                    <!-- Product price-->
-                                    $40.00 - $80.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Special Item</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Sale Item</h5>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Popular Item</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
-                                    <!-- Product price-->
-                                    $40.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Sale Item</h5>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Fancy Product</h5>
-                                    <!-- Product price-->
-                                    $120.00 - $280.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Special Item</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Popular Item</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
-                                    <!-- Product price-->
-                                    $40.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">

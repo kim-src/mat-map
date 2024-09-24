@@ -7,12 +7,12 @@
 
 .left-sidebar {
 	flex: 1;
-	margin-top: 100px;
+	/*border: 1px solid black;*/
 }
 
 .right-sidebar {
 	flex: 1;
-	margin-top: 100px;
+	/*border: 1px solid black;*/
 }
 
 .shop-center {
@@ -20,18 +20,56 @@
 }
 
 
-/* 기본 스타일 */
+/* 사이드바 스타일 */
 .hashtag {
 	margin-right: 0.5rem;
 }
 
 .title {
-	margin-left: 2rem;
-	width: 200px;
+	font-size: 1.5rem;
+}
+
+.sub-title {
+	font-size: 1.2rem;
+	margin-bottom: 0.4rem;
 }
 
 .button {
 	margin-top: 1rem;
-	margin-left: -2.5rem;
-	text-align: center;
+}
+
+
+/* 카드 스타일 */
+.card-shop-center {
+	/* 그리드 구조의 콘텐츠 사이 여백 */
+	--bs-gutter-x: 1.5rem;
+}
+
+.pictogram-img-row {
+	margin-bottom: 1rem;
+}
+
+.pictogram-img {
+	width: 15%;
+	height: 15%;
+	margin-right: 1.9rem;
+}
+
+.pictogram-img:last-child {
+	margin-right: 0;
+}
+
+.pictogram-text {
+	margin-right: 0.5rem;
+}
+
+.pictogram-text:last-child {
+	margin-right: 0;
+}
+
+.size {
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+    text-align: center;
 }
