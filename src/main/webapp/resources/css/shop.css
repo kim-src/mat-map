@@ -3,6 +3,7 @@
 /* 레이아웃 */
 .shop-container {
 	display: flex;
+	margin-top: 2%;
 }
 
 .left-sidebar {
@@ -22,11 +23,17 @@
 
 /* 사이드바 스타일 */
 .hashtag {
-	margin-right: 0.5rem;
+	margin-right: 0.2rem;
 }
 
-.title {
-	font-size: 1.5rem;
+.title-left-sidebar {
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+}
+
+.title-right-sidebar {
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
 }
 
 .sub-title {
@@ -34,8 +41,12 @@
 	margin-bottom: 0.4rem;
 }
 
-.button {
+.btn-left-sidebar {
 	margin-top: 1rem;
+}
+
+.btn-left-sidebar:first-child {
+	margin-top: 10rem;
 }
 
 
@@ -50,12 +61,22 @@
 }
 
 .pictogram-img {
-	width: 15%;
-	height: 15%;
-	margin-right: 1.9rem;
+	width: 10%;
+	height: 10%;
+	margin-right: 2.8rem;
 }
 
 .pictogram-img:last-child {
+	margin-right: 0;
+}
+
+.pictogram-img-sidebar {
+	width: 16%;
+	height: 16%;
+	margin-right: 2.8rem;
+}
+
+.pictogram-img-sidebar:last-child {
 	margin-right: 0;
 }
 
@@ -67,9 +88,9 @@
 	margin-right: 0;
 }
 
-.size {
-	width: 50%;
-	height: 50%;
+.card-sidebar-size {
+	width: 60%;
+	height: 60%;
 	margin: 0 auto;
     text-align: center;
 }

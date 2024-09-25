@@ -52,27 +52,32 @@
         <!-- 음식점 페이지 -->
         <section class="shop-container">
         	<div class="left-sidebar text-center">
-        		<div class="title fw-bolder">
-        			<span class='hashtag'>#</span>흑백요리사
-        		</div>
-        		<div class="button">
-        			<!-- 버튼 호버 시 설명창 팝업 -->
-        			<button>설명 보기</button>
-        		</div>
-				<div class="none">
-        			<p>Netflix 흑백요리사 프로그램에 출연한 100인의 요리사들이 운영하는 식당을 지도에 표시합니다.</p>
-        		</div>
+        		<div class="title-left-sidebar fw-bolder">🔎 키워드 검색</div>
+       			<div class="btn-left-sidebar"><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>백종원</a></div>
+       			<div class="btn-left-sidebar"><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>성시경</a></div>
+       			<div class="btn-left-sidebar"><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>빅페이스</a></div>
+       			<div class="btn-left-sidebar"><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>푸디랜드</a></div>
+       			<div class="btn-left-sidebar"><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>홍석천이원일</a></div>
+       			<div class="btn-left-sidebar"><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>맛있는녀석들</a></div>
+       			<div class="btn-left-sidebar"><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>먹보스쭈엽이</a></div>
         	</div>
         	<div class="shop-center">
-        		<div class="card-shop-center">
+        		<div style="text-align: center; margin-bottom : 2rem;">
+        			<span><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>필터</a></span>
+        			<span><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>필터</a></span>
+        			<span><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>필터</a></span>
+        			<span><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>필터</a></span>
+        			<span><a class="btn btn-outline-dark mt-auto fw-bolder" href="#"><span class='hashtag'>#</span>필터</a></span>
+        		</div>
+        		<div class="card-shop-center px-4 px-lg-5">
 	        		<div class="row row-cols-md-3 row-cols-xl-4">
-		        		<div class="col mb-5">
+	        			<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
+	                            <img class="card-img-top" src="https://i.ytimg.com/an_webp/5udeQjbb78o/mqdefault_6s.webp?du=3000&sqp=CITMz7cG&rs=AOn4CLBnCGU5fxVlBGH93qdLTjmHuTMaPg" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
-	                                    <div class="text">전주시 덕진구</div>
+	                                    <div class="sub-title fw-bolder">어라속초생선찜</div>
+	                                    <div class="text">고양시 일산동구</div>
 	                                </div>
 	                            </div>
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -93,11 +98,11 @@
 						</div>
 		        		<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
+	                            <img class="card-img-top" src="https://i.ytimg.com/an_webp/zA-F9EtsRJc/mqdefault_6s.webp?du=3000&sqp=CJfKz7cG&rs=AOn4CLA1AWW2axtdC6M67PJUzy-sK1vmgQ" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
-	                                    <div class="text">전주시 덕진구</div>
+	                                    <div class="sub-title fw-bolder">만우장</div>
+	                                    <div class="text">부산시 수영구</div>
 	                                </div>
 	                            </div>
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -118,11 +123,11 @@
 						</div>
 						<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
+	                            <img class="card-img-top" src="https://i.ytimg.com/an_webp/1hIAWjjngMc/mqdefault_6s.webp?du=3000&sqp=CMjsz7cG&rs=AOn4CLB0Q62-tV0ehKpWK6VYJgTp9kRrhw" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
-	                                    <div class="text">전주시 덕진구</div>
+	                                    <div class="sub-title fw-bolder">샌마르</div>
+	                                    <div class="text">강원도 강릉시</div>
 	                                </div>
 	                            </div>
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -143,11 +148,11 @@
 						</div>
 						<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
+	                            <img class="card-img-top" src="https://i.ytimg.com/an_webp/uUlJxzstq6k/mqdefault_6s.webp?du=3000&sqp=CK7Dz7cG&rs=AOn4CLB66l3u9kp4s2dBH2PhZcJFCET0Rw" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
-	                                    <div class="text">전주시 덕진구</div>
+	                                    <div class="sub-title fw-bolder">본수원갈비</div>
+	                                    <div class="text">수원시 팔달구</div>
 	                                </div>
 	                            </div>
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -168,11 +173,11 @@
 						</div>
 						<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
+	                            <img class="card-img-top" src="https://i.ytimg.com/an_webp/y4jO0cYYvGk/mqdefault_6s.webp?du=3000&sqp=CN_tz7cG&rs=AOn4CLBpjAstwNffpT-fRzpPXgTwJISYgA" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
-	                                    <div class="text">전주시 덕진구</div>
+	                                    <div class="sub-title fw-bolder">백경샤브샤브</div>
+	                                    <div class="text">전라남도 목포시</div>
 	                                </div>
 	                            </div>
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -193,11 +198,11 @@
 						</div>
 						<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
+	                            <img class="card-img-top" src="https://i.ytimg.com/an_webp/FpnRPY9Rfdo/mqdefault_6s.webp?du=3000&sqp=CIjqz7cG&rs=AOn4CLCCbCxBLFMon_oZV6UCIM5cg4sPgA" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
-	                                    <div class="text">전주시 덕진구</div>
+	                                    <div class="sub-title fw-bolder">진구포차</div>
+	                                    <div class="text">전라남도 장성군</div>
 	                                </div>
 	                            </div>
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -220,31 +225,27 @@
 				</div>
         	</div>
         	<div class="right-sidebar text-center">
-        		<div class="title fw-bolder">
-        			<span class='hashtag'>#</span>오늘의 맛집
-        		</div>
-        		<div class="card-sidebar size">
+        		<div class="title-right-sidebar fw-bolder">🏠 오늘의 맛집</div>
+        		<div class="card-sidebar-size">
         			<!-- 카드에서 관심 점수가 높은 순위로 내림차순 정렬 -->
         			<!-- 비율 12:7, 최대 360*210 -->
         			<!-- 카드 사진 / 매장명 / 하트 그림 / 지도 그림 / 집 그림 / '000' / '위치' / '소개' -->
         			<div class="col mb-5">
 	                        <div class="card h-100">
-	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2F-UDRt6_NfEE%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
+	                            <img class="card-img-top" src="https://www.mukbangmap.com/_next/image?url=https%3A%2F%2Fi3.ytimg.com%2Fvi%2FDbkkQTWZDUA%2Fmqdefault.jpg&w=640&q=75" alt="card-contents"/>
 	                            <div class="card-body p-4">
 	                                <div class="text-center">
-	                                    <div class="sub-title fw-bolder">전주비빔소리</div>
-	                                    <div class="text">전주시 덕진구</div>
+	                                    <div class="sub-title fw-bolder">한재골 가든</div>
+	                                    <div class="text">전라남도 담양군</div>
 	                                </div>
 	                            </div>
 	                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
 	                            	<div class="pictogram-container text-center">
 	                            		<div class="pictogram-img-row">
-	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/138/138533.png" alt="pictogram"/>
-	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/447/447031.png" alt="pictogram"/>
-	                            			<img class="pictogram-img" src="https://cdn-icons-png.flaticon.com/128/20/20176.png" alt="pictogram"/>
+	                            			<img class="pictogram-img-sidebar" src="https://cdn-icons-png.flaticon.com/128/447/447031.png" alt="pictogram"/>
+	                            			<img class="pictogram-img-sidebar" src="https://cdn-icons-png.flaticon.com/128/20/20176.png" alt="pictogram"/>
 	                            		</div>
 	                            		<div>
-	                            			<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">관심</a></span>
 			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">위치</a></span>
 			                            	<span class="pictogram-text"><a class="btn btn-outline-dark mt-auto" href="#">소개</a></span>
 	                            		</div>
@@ -252,9 +253,6 @@
 	                            </div>
 	                        </div>
 						</div>
-        		</div>
-        		<div class="title fw-bolder">
-        			<span class='hashtag'>#</span>오늘의 메뉴
         		</div>
         		<div class="card-sidebar">
         			<!-- 카드에서 관심 점수가 높은 순위로 내림차순 정렬 -->
