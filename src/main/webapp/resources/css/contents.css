@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* 레이아웃 */
+.contents-page {
+	display: flex;
+	margin-top: 2%;
+}
+
+.left-sidebar {
+	flex: 1;
+}
+
+.right-sidebar {
+	flex: 1;
+}
+
+.contents-center {
+	flex: 3;
+}
+
+
+/* 사이드바 스타일 */
+.hashtag {
+	margin-right: 0.2rem;
+}
+
+.title-left-sidebar {
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+}
+
+.title-right-sidebar {
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+}
+
+.sub-title {
+	font-size: 1.2rem;
+	margin-bottom: 0.4rem;
+}
+
+.btn-left-sidebar {
+	margin-top: 1rem;
+}
+
+.btn-left-sidebar:first-child {
+	margin-top: 10rem;
+}
+
+
+/* 장소 필터 */
+.keyword-region-container {
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+.region {
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+/* 카드 스타일 */
+.card-contents-center {
+	/* 그리드 구조의 콘텐츠 사이 여백 */
+	--bs-gutter-x: 1.5rem;
+}
+
+.pictogram-img-row {
+	margin-bottom: 1rem;
+}
+
+.pictogram-img {
+	width: 10%;
+	height: 10%;
+	margin-right: 2.8rem;
+}
+
+.pictogram-img:last-child {
+	margin-right: 0;
+}
+
+.pictogram-img-sidebar {
+	width: 16%;
+	height: 16%;
+	margin-right: 2.8rem;
+}
+
+.pictogram-img-sidebar:last-child {
+	margin-right: 0;
+}
+
+.pictogram-text {
+	margin-right: 0.5rem;
+}
+
+.pictogram-text:last-child {
+	margin-right: 0;
+}
+
+.card-sidebar-size {
+	width: 60%;
+	height: 60%;
+	margin: 0 auto;
+    text-align: center;
+}

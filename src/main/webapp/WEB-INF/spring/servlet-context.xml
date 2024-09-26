@@ -11,7 +11,7 @@
 		
   <annotation-driven />
 
-  <context:component-scan base-package="kr.com.mat" />
+  <context:component-scan base-package="kr.com.matmap" />
   
   <beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
     <beans:property name="order" value="2" />

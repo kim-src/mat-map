@@ -8,7 +8,7 @@
 	
 
    <!-- mybatis 설정 -->
-	<mybatis-spring:scan base-package="kr.com.mat"/>
+	<mybatis-spring:scan base-package="kr.com.matmap"/>
 
     
     <!-- 데이베이스 연동  -->
