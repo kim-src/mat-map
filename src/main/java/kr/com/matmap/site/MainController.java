@@ -8,8 +8,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 	
 	@RequestMapping(value="/mat-map.com")
-	public String getFoodShop() {
+	public String getHome() {
 		return "site/home";
+	}
+	
+	@RequestMapping(value="mat-map/review.com")
+	public String getReview() {
+		return "site/review";
 	}
 	
 }
