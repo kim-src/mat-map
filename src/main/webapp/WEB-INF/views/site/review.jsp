@@ -33,10 +33,9 @@
         <!-- Bootstrap Icons -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link href="${pageContext.request.contextPath}/resources/css/nav.css" rel="stylesheet" />
-        <link href="${pageContext.request.contextPath}/resources/css/land.css" rel="stylesheet" />
-        <link href="${pageContext.request.contextPath}/resources/css/contents.css" rel="stylesheet" />
-        <link href="${pageContext.request.contextPath}/resources/css/basic.css" rel="stylesheet" />
+        <link href="${pageContext.request.contextPath}/resources/css/home.css" rel="stylesheet" />
         <link href="${pageContext.request.contextPath}/resources/css/styles.css" rel="stylesheet" />
+        <link href="${pageContext.request.contextPath}/resources/css/review.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigator -->
@@ -52,27 +51,39 @@
                 <a class="menu-nav-bar fw-bolder" href="#">로그인</a>                
             </span>
         </nav>
-        <!-- Landing Page -->
-        <section class="landing-page">
-        	<div>
-        		<input class="landing-search shadow-search" type="text" placeholder="🔍 맛집 이름, 장소, 주소, 유튜브 채널명 등을 입력해주세요. "/>
-        		<img class="landing-img" src="https://github.com/user-attachments/assets/56e17edd-45c3-4582-a6ce-f611333d03fe" alt="landing-img"/>
-        	</div>
-        </section>
         <!-- Contents Page -->
-		<section class="review-page">
-			<div class="required-list">
-				<div class="review-rating">
+		<section class="review-page shadow">
+			<div class="review-page-title fw-bolder">🔔 리뷰 등록</div>
+			<br/>
+			<div class="required-items">
+				<div>
+					<div class="review-title fw-bolder">📌 제목</div>
+					<input type="text" class="review-title-input" placeholder="제목을 입력하세요."/>
 				</div>
-				<div class="review-title-container">
-					<input type="text" class="review-title" placeholder="제목을 입력하세요."/>
-				</div>
-				<div class="review-contents-container">
-					<input type="text" class="review-contents" placeholder="리뷰 내용을 입력하세요. (최대 00자)"/>
+				<br/>
+				<div>
+					<div class="review-contents fw-bolder">📌 내용</div>
+					<textarea class="review-contents-input" placeholder="내용을 입력하세요."></textarea>
 				</div>
 			</div>
-			<div class="optional-list">
-				<div class="review-img">
+			<div class="rating-container">
+				<div class="rating-title">평점 :</div>
+			    <div class="stars">
+			        <span class="star">⭐</span>
+			        <span class="star">⭐</span>
+			        <span class="star">⭐</span>
+			        <span class="star">⭐</span>
+			        <span class="half-star">⭐</span>
+			    </div>
+			</div>
+			<div class="button-items">
+				<div class="button-img">
+					<input type="file" id="review-img" class="none" multiple accept="image/*">
+					<label class="btn btn-outline-dark mt-auto button-img fw-bolder" for="review-img">이미지 선택</label>
+				</div>
+				<div class="button-basic">
+					<button class="btn btn-outline-dark mt-auto fw-bolder">등록</button>
+					<button class="btn btn-outline-dark mt-auto fw-bolder">취소</button>
 				</div>
 			</div>
 		</section>

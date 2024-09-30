@@ -486,6 +486,36 @@ progress {
   display: none !important;
 }
 
+
+/* 추가 또는 수정 스타일 */
+.none {
+	display: none !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.fw-bolder {
+	font-weight: bolder !important;
+}
+
+.px-lg-5 {
+	padding-right: 3rem !important;
+	padding-left: 3rem !important;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.shadow-basic {
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+/* 기존 스타일 */
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;

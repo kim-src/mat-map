@@ -33,10 +33,9 @@
         <!-- Bootstrap Icons -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link href="${pageContext.request.contextPath}/resources/css/nav.css" rel="stylesheet" />
-        <link href="${pageContext.request.contextPath}/resources/css/land.css" rel="stylesheet" />
-        <link href="${pageContext.request.contextPath}/resources/css/contents.css" rel="stylesheet" />
-        <link href="${pageContext.request.contextPath}/resources/css/basic.css" rel="stylesheet" />
+        <link href="${pageContext.request.contextPath}/resources/css/home.css" rel="stylesheet" />
         <link href="${pageContext.request.contextPath}/resources/css/styles.css" rel="stylesheet" />
+        <link href="${pageContext.request.contextPath}/resources/css/review.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigator -->
@@ -55,7 +54,7 @@
         <!-- Landing Page -->
         <section class="landing-page">
         	<div>
-        		<input class="landing-search shadow-search" type="text" placeholder="🔍 맛집 이름, 장소, 주소, 유튜브 채널명 등을 입력해주세요. "/>
+        		<input class="landing-search shadow-search" type="text" placeholder="🔍 맛집 이름, 장소, 주소, 유튜브 채널명 등을 입력해주세요. ">
         		<img class="landing-img" src="https://github.com/user-attachments/assets/56e17edd-45c3-4582-a6ce-f611333d03fe" alt="landing-img"/>
         	</div>
         </section>
