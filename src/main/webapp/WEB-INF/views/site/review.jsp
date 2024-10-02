@@ -12,7 +12,7 @@
 		<section class="review-page shadow">
 			<div class="review-page-title fw-bolder">🔔 리뷰 등록</div>
 			<br/>
-			<div class="form-items">
+			<div class="review-form-items">
 				<div>
 					<div class="review-title fw-bolder">📌 제목</div>
 					<input type="text" class="form-control review-title-input" placeholder="제목을 입력하세요."/>
@@ -35,7 +35,7 @@
 			        <span class="half-star">⭐</span>
 			    </div>
 			</div>
-			<div class="button-items">
+			<div class="review-button-items">
 				<div class="button-img">
 					<input type="file" id="review-img" class="none" multiple accept="image/*">
 					<label class="btn btn-outline-dark mt-auto button-img fw-bolder" for="review-img">이미지 선택</label>

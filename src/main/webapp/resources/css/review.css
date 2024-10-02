@@ -15,8 +15,8 @@
 	font-size: 1.3rem;
 }
 
-.form-items {
-	margin-bottom: 1%;
+.review-form-items {
+	margin-bottom: 4%;
 }
 
 .review-title {
@@ -52,7 +52,7 @@
 	margin-right: 0.3rem;
 }
 
-.button-items {
+.review-button-items {
 	width: 400px;
 	display: flex;
 }

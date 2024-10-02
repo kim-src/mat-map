@@ -12,12 +12,14 @@
         <!-- Contents Page -->
 		<section class="book-page shadow">
 			<div class="book-page-title fw-bolder">🔔 예약 등록</div>
+			
 			<br/>
-			<div class="form-items">
+			
+			<div class="book-form-items">
 				<div>
 					<div class="book-form-title fw-bolder">📌 인원 선택</div>
 					<div class="form-people">
-						<div class="placeholder-people form-control">인원을 선택하세요.</div>
+						<div class="placeholder-people form-control">예약 인원을 선택하세요.</div>
 						<span id="arrow-people" class="arrow fw-bolder">&#8744;</span>
 						<ul class="options-people">
 							<li data-value="1">1명</li>
@@ -37,38 +39,56 @@
 				<div>
 					<div class="book-form-title fw-bolder">📌 날짜 선택</div>
 					<div class="form-calendar">
-						<div class="placeholder-people form-control">인원을 선택하세요.</div>
-						<span id="arrow-people" class="arrow fw-bolder">&#8744;</span>
-						<ul class="options-people">
-							<li data-value="1">1명</li>
-							<li data-value="2">2명</li>
-				            <li data-value="3">3명</li>
-				            <li data-value="4">4명</li>
-				            <li data-value="5">5명</li>
-				            <li data-value="6">6명</li>
-				            <li data-value="7">7명</li>
-				            <li data-value="8">8명</li>
-						</ul>
+						<input type="text" id="calendar" class="placeholder-calendar form-control"/>
+						<span id="arrow-calendar" class="arrow fw-bolder">&#8744;</span>
 					</div>
 				</div>
 				
-				<div>
-					<div class="book-title fw-bolder">📌 날짜 선택</div>
-					<input type="text" id="calendar" class="book-calendar form-control" placeholder="날짜를 선택하세요."/>
-				</div>
+				<br/>
 				
-				<br/>
-			    
-			    <div class="time-slots">
-			        <button class="btn btn-outline-danger time-slot-button">오전 11:30</button>
-			        <button class="btn btn-outline-danger time-slot-button">오전 12:00</button>
-			        <button class="btn btn-outline-danger time-slot-button">오후 12:30</button>
-			        <button class="btn btn-outline-danger time-slot-button">오후 1:00</button>
-			        <button class="btn btn-outline-danger time-slot-button">오후 1:30</button>
-			    </div>
-				<br/>
+				<div>
+					<div class="book-form-title fw-bolder">📌 시간 선택</div>
+					<div class="form-time">
+						<div class="placeholder-time form-control">예약 시간을 선택하세요.</div>
+						<span id="arrow-time" class="arrow fw-bolder">&#8744;</span>
+						<ul class="options-time">
+							<li data-value="">10:00</li>
+							<li data-value="">10:30</li>
+							<li data-value="">11:00</li>
+							<li data-value="">11:30</li>
+							<li data-value="">12:00</li>
+							<li data-value="">12:30</li>
+							<li data-value="">13:00</li>
+							<li data-value="">13:30</li>
+							<li data-value="">14:00</li>
+							<li data-value="">14:30</li>
+							<li data-value="">15:00</li>
+							<li data-value="">15:30</li>
+							<li data-value="">16:00</li>
+							<li data-value="">16:30</li>
+							<li data-value="">17:00</li>
+							<li data-value="">17:30</li>
+							<li data-value="">18:00</li>
+							<li data-value="">18:30</li>
+							<li data-value="">19:00</li>
+							<li data-value="">19:30</li>
+							<li data-value="">20:00</li>
+							<li data-value="">20:30</li>
+							<li data-value="">21:00</li>
+							<li data-value="">21:30</li>
+							<li data-value="">22:00</li>
+							<li data-value="">22:30</li>
+							<li data-value="">23:00</li>
+							<li data-value="">23:30</li>
+							<li data-value="">24:00</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<div class="button-items">
+			
+			<br/>
+			
+			<div class="book-button-items">
 				<div class="button-img">
 					<input type="file" id="review-img" class="none" multiple accept="image/*">
 					<label class="btn btn-outline-dark mt-auto button-img fw-bolder" for="review-img">이미지 선택</label>
