@@ -17,4 +17,9 @@ public class MainController {
 		return "site/review";
 	}
 	
+	@RequestMapping(value="mat-map/book.com")
+	public String getBook() {
+		return "site/book";
+	}
+	
 }

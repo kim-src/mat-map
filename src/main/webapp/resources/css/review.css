@@ -8,18 +8,15 @@
 	margin: 2% auto 4% auto;
 	padding: 2%;
 	border: 1px solid gray;
+	border-radius: 0.375rem;
 }
 
 .review-page-title {
 	font-size: 1.3rem;
 }
 
-.required-items {
+.form-items {
 	margin-bottom: 1%;
-}
-
-.optional-items {
-	text-align: right;
 }
 
 .review-title {
