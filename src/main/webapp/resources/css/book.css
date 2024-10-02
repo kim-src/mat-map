@@ -39,23 +39,25 @@ li {
 	/* 불릿 포인트 제거 */
 	list-style-type: none;
 	padding: 10px;
+	background-color: white;
 }
 
 li:hover {
 	background-color: #f1f1f1;
 }
 
-/* 예약 폼 스타일 */
 .book-form-title {
 	margin-bottom: 3%;
 	font-size: 1.2rem;
 }
 
+
+/* 인원 선택 폼 */
 .form-people {
 	width: 400px;
 	position: relative;
-	display: inline-placeholderblock;
 	cursor: pointer;
+	z-index: 1;
 }
 
 .placeholder-people {
@@ -78,21 +80,22 @@ li:hover {
 }
 
 
-.options-person-count.show {
-	display: block;
-}
-
-.book-contents {
-	margin-bottom: 3%;
-	font-size: 1.2rem;
-}
-
-.book-contents-input {
+/* 인원 선택 폼 */
+.form-calendar {
 	width: 400px;
-	height: 200px;
-	padding: 4%;
+	position: relative;
+	display: inline-placeholderblock;
+	cursor: pointer;
 }
 
+.placeholder-people {
+	width: 100%;
+	padding: 10px;
+	color: gray;
+}
+
+
+/* 버튼 */
 .button-items {
 	width: 400px;
 	display: flex;

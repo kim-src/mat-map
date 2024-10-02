@@ -17,7 +17,7 @@
 				<div>
 					<div class="book-form-title fw-bolder">📌 인원 선택</div>
 					<div class="form-people">
-						<div class="form-control placeholder-people">인원을 선택하세요.</div>
+						<div class="placeholder-people form-control">인원을 선택하세요.</div>
 						<span id="arrow-people" class="arrow fw-bolder">&#8744;</span>
 						<ul class="options-people">
 							<li data-value="1">1명</li>
@@ -33,29 +33,24 @@
 				</div>
 				
 				<br/>
-				<br/>
-				<br/>
-				<br/>
-			
+				
 				<div>
-					<div class="book-title fw-bolder">📌 인원 선택</div>
-					<div class="select-container">
-						<div class="placeholder">인원을 선택하세요.</div>
-						<span id="arrow-person-count" class="arrow fw-bolder">&#8744;</span>
-						<ul class="options-person-count">
-				            <li data-value="1">1명</li>
-				            <li data-value="2">2명</li>
+					<div class="book-form-title fw-bolder">📌 날짜 선택</div>
+					<div class="form-calendar">
+						<div class="placeholder-people form-control">인원을 선택하세요.</div>
+						<span id="arrow-people" class="arrow fw-bolder">&#8744;</span>
+						<ul class="options-people">
+							<li data-value="1">1명</li>
+							<li data-value="2">2명</li>
 				            <li data-value="3">3명</li>
 				            <li data-value="4">4명</li>
 				            <li data-value="5">5명</li>
 				            <li data-value="6">6명</li>
 				            <li data-value="7">7명</li>
 				            <li data-value="8">8명</li>
-				        </ul>
+						</ul>
 					</div>
 				</div>
-				
-				<br/>
 				
 				<div>
 					<div class="book-title fw-bolder">📌 날짜 선택</div>
@@ -72,10 +67,6 @@
 			        <button class="btn btn-outline-danger time-slot-button">오후 1:30</button>
 			    </div>
 				<br/>
-				<div>
-					<div class="book-contents fw-bolder">📌 내용</div>
-					<textarea class="book-contents-input" placeholder="내용을 입력하세요."></textarea>
-				</div>
 			</div>
 			<div class="button-items">
 				<div class="button-img">
@@ -93,46 +84,53 @@
     </body>
 	<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 	<script>
-		function toggleArrow() {
-			const dropdown = document.querySelector('.')
+		/* togglePeopleForm 함수 정의 */
+		function togglePeopleForm() {
+			// 인원 선택 폼
+			const option = document.querySelector('.options-people');
+			const arrow = document.getElementById('arrow-people');
+			
+			// show에 정의된 기능 ON/OFF
+			option.classList.toggle('show');
+			arrow.classList.toggle('rotation');
 		}
-	
-		function toggleDropdown() {
-		    const dropdown = document.querySelector('.options-person-count');
-		    const arrow = document.getElementById('arrow-person-count');
-		    
-		    dropdown.classList.toggle('show');
-		    arrow.classList.toggle('rotation');
-		}
-	
-		// 화살표 및 placeholder 클릭 시 드롭다운 토글
-		document.querySelector('.placeholder').addEventListener('click', toggleDropdown);
-		document.getElementById('arrow-person-count').addEventListener('click', toggleDropdown);
-	
-		// 옵션 선택 시 동작 설정
-		document.querySelectorAll('.options-person-count li').forEach(option => {
-		    option.addEventListener('click', function() {
-		        const placeholder = document.querySelector('.placeholder');
-		        placeholder.textContent = this.textContent;
-		        
-		        document.querySelector('.options-person-count').classList.remove('show');
-		        document.getElementById('arrow-person-count').classList.remove('rotation');
-		    });
+		
+		/* 폼 클릭 시 이벤트 설정 */
+		// 인원 선택 폼
+		document.querySelector('.placeholder-people').addEventListener('click', togglePeopleForm);
+		document.getElementById('arrow-people').addEventListener('click', togglePeopleForm);
+		document.querySelectorAll('.options-people li').forEach(option => {
+			option.addEventListener('click', function() {
+				const placeholder = document.querySelector('.placeholder-people');
+				// placeholder-people의 텍스트를 this.textContent로 설정
+				// this = 클릭 이벤트가 발생한 options-people의 li 요소
+				placeholder.textContent = this.textContent;
+				
+				// 클릭 동작을 마친 폼 및 화살표 원위치
+				document.querySelector('.options-people').classList.remove('show');
+				document.getElementById('arrow-people').classList.remove('rotation');
+			});
 		});
-	
-		// 페이지의 다른 부분 클릭 시 옵션 창 닫기
+		
+		/* 폼 외부 영역 클릭 시 이벤트 설정 */
+		// 인원 선택 폼
 		document.addEventListener('click', function(event) {
-		    const dropdown = document.querySelector('.options-person-count');
-		    const placeholder = document.querySelector('.placeholder');
-		    const arrow = document.getElementById('arrow-person-count');
-		    
-		    if (!placeholder.contains(event.target) && !dropdown.contains(event.target) && !arrow.contains(event.target)) {
-		        dropdown.classList.remove('show');
-		        arrow.classList.remove('rotation');
-		    }
+			const option = document.querySelector('.options-people');
+			const placeholder = document.querySelector('.placeholder-people');
+			const arrow = document.getElementById('arrow-people')
+			
+			// 클릭된 위치가 폼이 아닐 경우 가정
+			if (!option.contains(event.target) &&
+				!placeholder.contains(event.target) &&
+				!arrow.contains(event.target)) {
+				
+				option.classList.remove('show');
+				arrow.classList.remove('rotation');
+			}
 		});
 	
-		// '날짜 선택' 달력 설정
+		
+		/* '날짜 선택' 달력 설정 */
 		flatpickr("#calendar", {
 			locale: "ko",
 			minDate: "today",
