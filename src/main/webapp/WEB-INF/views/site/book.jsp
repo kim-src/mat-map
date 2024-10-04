@@ -30,6 +30,7 @@
 				            <li data-value="6">6명</li>
 				            <li data-value="7">7명</li>
 				            <li data-value="8">8명</li>
+				            <li data-value="8">8명 이상(별도 문의)</li>
 						</ul>
 					</div>
 				</div>
@@ -105,26 +106,39 @@
 	<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 	<script>
 		/* togglePeopleForm 함수 정의 */
+		
+		// 인원 선택
 		function togglePeopleForm() {
-			// 인원 선택 폼
-			const option = document.querySelector('.options-people');
-			const arrow = document.getElementById('arrow-people');
+			const optionPeople = document.querySelector('.options-people');
+			const arrowPeople = document.getElementById('arrow-people');
 			
 			// show에 정의된 기능 ON/OFF
-			option.classList.toggle('show');
-			arrow.classList.toggle('rotation');
+			optionPeople.classList.toggle('show');
+			arrowPeople.classList.toggle('rotation');
 		}
 		
+		// 시간 선택
+		function toggleTimeForm() {
+			const optionTime = document.querySelector('.options-time');
+			const arrowTime = document.getElementById('arrow-time');
+			
+			// show에 정의된 기능 ON/OFF
+			optionTime.classList.toggle('show');
+			arrowTime.classList.toggle('rotation');
+		}
+		
+		
 		/* 폼 클릭 시 이벤트 설정 */
-		// 인원 선택 폼
+		
+		// 인원 선택
 		document.querySelector('.placeholder-people').addEventListener('click', togglePeopleForm);
 		document.getElementById('arrow-people').addEventListener('click', togglePeopleForm);
-		document.querySelectorAll('.options-people li').forEach(option => {
-			option.addEventListener('click', function() {
-				const placeholder = document.querySelector('.placeholder-people');
+		document.querySelectorAll('.options-people li').forEach(optionPeople => {
+			optionPeople.addEventListener('click', function() {
+				const placeholderPeople = document.querySelector('.placeholder-people');
 				// placeholder-people의 텍스트를 this.textContent로 설정
 				// this = 클릭 이벤트가 발생한 options-people의 li 요소
-				placeholder.textContent = this.textContent;
+				placeholderPeople.textContent = this.textContent;
 				
 				// 클릭 동작을 마친 폼 및 화살표 원위치
 				document.querySelector('.options-people').classList.remove('show');
@@ -132,20 +146,53 @@
 			});
 		});
 		
+		// 시간 선택
+		document.querySelector('.placeholder-time').addEventListener('click', toggleTimeForm);
+		document.getElementById('arrow-time').addEventListener('click', toggleTimeForm);
+		document.querySelectorAll('.options-time li').forEach(optionTime => {
+			optionTime.addEventListener('click', function() {
+				const placeholderTime = document.querySelector('.placeholder-time');
+				// placeholder-time의 텍스트를 this.textContent로 설정
+				// this = 클릭 이벤트가 발생한 options-people의 li 요소
+				placeholderTime.textContent = this.textContent;
+				
+				// 클릭 동작을 마친 폼 및 화살표 원위치
+				document.querySelector('.options-time').classList.remove('show');
+				document.getElementById('arrow-time').classList.remove('rotation');
+			});
+		});
+		
 		/* 폼 외부 영역 클릭 시 이벤트 설정 */
-		// 인원 선택 폼
+		
+		// 인원 선택
 		document.addEventListener('click', function(event) {
-			const option = document.querySelector('.options-people');
-			const placeholder = document.querySelector('.placeholder-people');
-			const arrow = document.getElementById('arrow-people')
+			const optionPeople = document.querySelector('.options-people');
+			const placeholderPeople = document.querySelector('.placeholder-people');
+			const arrowPeople = document.getElementById('arrow-people')
 			
 			// 클릭된 위치가 폼이 아닐 경우 가정
-			if (!option.contains(event.target) &&
-				!placeholder.contains(event.target) &&
-				!arrow.contains(event.target)) {
+			if (!optionPeople.contains(event.target) &&
+				!placeholderPeople.contains(event.target) &&
+				!arrowPeople.contains(event.target)) {
 				
-				option.classList.remove('show');
-				arrow.classList.remove('rotation');
+				optionPeople.classList.remove('show');
+				arrowPeople.classList.remove('rotation');
+			}
+		});
+		
+		// 시간 선택
+		document.addEventListener('click', function(event) {
+			const optionTime = document.querySelector('.options-time');
+			const placeholderTime = document.querySelector('.placeholder-time');
+			const arrowTime = document.getElementById('arrow-time')
+			
+			// 클릭된 위치가 폼이 아닐 경우 가정
+			if (!optionTime.contains(event.target) &&
+				!placeholderTime.contains(event.target) &&
+				!arrowTime.contains(event.target)) {
+				
+				optionTime.classList.remove('show');
+				arrowTime.classList.remove('rotation');
 			}
 		});
 	
