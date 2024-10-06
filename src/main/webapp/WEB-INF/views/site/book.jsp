@@ -40,8 +40,8 @@
 				<div>
 					<div class="book-form-title fw-bolder">📌 날짜 선택</div>
 					<div class="form-calendar">
+						<div class="placeholder-calendar form-control">예약 날짜를 선택하세요.</div>
 						<input type="text" id="calendar" class="placeholder-calendar form-control"/>
-						<span id="arrow-calendar" class="arrow fw-bolder">&#8744;</span>
 					</div>
 				</div>
 				
@@ -117,6 +117,14 @@
 			arrowPeople.classList.toggle('rotation');
 		}
 		
+		// 날짜 선택
+		function toggleCalendarForm() {
+			const optionCalendar = document.getElementById('calendar');
+			
+			// show에 정의된 기능 ON/OFF
+			optionCalendar.classList.toggle('show');
+		}
+		
 		// 시간 선택
 		function toggleTimeForm() {
 			const optionTime = document.querySelector('.options-time');
@@ -180,6 +188,18 @@
 			}
 		});
 		
+		// 날짜 선택
+		document.addEventListener('click', function(event) {
+			const optionCalendar = document.getElementById('calendar');
+			const placeholderCalendar = document.querySelector('.placeholder-calendar');
+			
+			// 클릭된 위치가 폼이 아닐 경우 가정
+			if (!optionCalendar.contains(event.target) &&
+				!placeholderCalendar.contains(event.target)) {
+				optionCalendar.classList.remove('show');
+			}
+		});
+		
 		// 시간 선택
 		document.addEventListener('click', function(event) {
 			const optionTime = document.querySelector('.options-time');
@@ -202,7 +222,13 @@
 			locale: "ko",
 			minDate: "today",
 			dateFormat: "Y-m-d",
-	        defaultDate: "today"
+	        defaultDate: "today",
+	        inline: true,
+        	onChange: function(selectedDates, dateStr, instance) {
+                // 선택된 날짜가 dateStr에 저장되며 이를 placeholder-calendar에 적용
+                const placeholderCalendar = document.querySelector('.placeholder-calendar');
+                placeholderCalendar.textContent = dateStr;
+            }
 	    });		
 	</script>
 </html>

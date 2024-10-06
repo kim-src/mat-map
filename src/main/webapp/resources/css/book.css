@@ -89,8 +89,11 @@ li:hover {
 	width: 400px;
 	position: relative;
 	cursor: pointer;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
+	display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    flex-direction: column;
 }
 
 .placeholder-calendar {
@@ -101,44 +104,30 @@ li:hover {
 }
 
 #calendar {
-	width: 400px;
+	display: none;
+	width: 100%;
+	padding: 0;
+	position: absolute;
+	overflow-y: auto;
+	/* 상부 2/3 */
+	z-index: 2;
 }
 
-/* 달력 배경색 변경 */
-.flatpickr-innerContainer {
-	width: 400px;
+#calendar.show {
+	display: block;
 }
 
+/* 달력 배치 */
 .flatpickr-calendar {
 	width: 400px;
-	background-color: red;
-	color: orange;
+    margin: 0 auto;
 }
 
-/* 달력 헤더 스타일 */
+/* 달력 스타일 */
 .flatpickr-months {
-	width: 400px;
 	height: 45px;
-    background-color: green;
+    background-color: white;
     font-size: 0.8rem;
-}
-
-/* 달력 날짜 버튼 스타일 */
-.flatpickr-day {
-    border-radius: 50%;
-    background-color: #e0e0e0;
-    color: black;
-}
-
-.flatpickr-day:hover {
-    background-color: #4a90e2;
-    color: white;
-}
-
-/* 선택된 날짜 스타일 */
-.flatpickr-day.selected {
-    background-color: #ff9800;
-    color: white;
 }
 
 
