@@ -36,11 +36,11 @@
 			    </div>
 			</div>
 			<div class="review-button-items">
-				<div class="button-img">
+				<div class="review-button-img">
 					<input type="file" id="review-img" class="none" multiple accept="image/*">
 					<label class="btn btn-outline-dark mt-auto button-img fw-bolder" for="review-img">이미지 선택</label>
 				</div>
-				<div class="button-basic">
+				<div class="review-button-basic">
 					<button class="btn btn-outline-dark mt-auto fw-bolder">등록</button>
 					<button class="btn btn-outline-dark mt-auto fw-bolder">취소</button>
 				</div>

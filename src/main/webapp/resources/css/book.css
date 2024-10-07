@@ -88,7 +88,6 @@ li:hover {
 .form-calendar {
 	width: 400px;
 	position: relative;
-	cursor: pointer;
 	margin: 0 auto;
 	display: flex;
     justify-content: center;
@@ -114,6 +113,11 @@ li:hover {
     width: 100% !important;
     margin: 0 auto;
     padding: 0;
+    box-shadow: none !important;
+    /* form-control 테두리 */
+    border: 1px solid #ced4da !important;
+    /* form-control 모서리 */
+    border-radius: 0.375rem;
 }
 
 .flatpickr-calendar .flatpickr-days .dayContainer {
@@ -131,8 +135,8 @@ li:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%;
-    height: 40px;
+    width: 30px !important;
+    height: 30px;
     box-sizing: border-box;
 }
 
@@ -152,7 +156,6 @@ li:hover {
 
 .flatpickr-months {
     height: 45px;
-    background-color: white;
     font-size: 0.8rem;
 }
 
@@ -160,6 +163,10 @@ li:hover {
 .flatpickr-calendar .flatpickr-weekdays,
 .flatpickr-calendar .flatpickr-days {
     width: 100% !important;
+}
+
+.numInputWrapper {
+	margin-left: 2rem;
 }
 
 
@@ -201,14 +208,15 @@ li:hover {
 .book-button-items {
 	width: 400px;
 	display: flex;
+	align-items: center;
 }
 
-.button-img {
+.book-button-seat {
 	flex: 1;
 	text-align: left;
 }
 
-.button-basic {
+.book-button-basic {
 	flex: 1;
 	text-align: right;
 }

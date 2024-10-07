@@ -92,11 +92,12 @@
 			<br/>
 			
 			<div class="book-button-items">
-				<div class="button-img">
-					<input type="file" id="review-img" class="none" multiple accept="image/*">
-					<label class="btn btn-outline-dark mt-auto button-img fw-bolder" for="review-img">이미지 선택</label>
+				<div class="book-button-seat">
+					<span class="fw-bolder" style="margin-right: 0.5rem;">잔여 좌석</span>
+					<span class="fw-bolder" style="margin-right: 0.5rem;">:</span>
+					<span class="fw-bolder">10석</span>
 				</div>
-				<div class="button-basic">
+				<div class="book-button-basic">
 					<button class="btn btn-outline-dark mt-auto fw-bolder">등록</button>
 					<button class="btn btn-outline-dark mt-auto fw-bolder">취소</button>
 				</div>

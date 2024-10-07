@@ -55,14 +55,15 @@
 .review-button-items {
 	width: 400px;
 	display: flex;
+	align-items: center;
 }
 
-.button-img {
+.review-button-img {
 	flex: 1;
 	text-align: left;
 }
 
-.button-basic {
+.review-button-basic {
 	flex: 1;
 	text-align: right;
 }
