@@ -91,8 +91,9 @@ li:hover {
 	cursor: pointer;
 	margin: 0 auto;
 	display: flex;
-    justify-content: center; /* 수평 중앙 정렬 */
-    align-items: center; /* 수직 중앙 정렬 */
+    justify-content: center;
+    /* 요소 세로 정렬 : 가운데 정렬 효과 */
+    align-items: center;
     flex-direction: column;
 }
 
@@ -103,31 +104,62 @@ li:hover {
 	text-indent: 10px;
 }
 
+/* 초기 달력 선택 버튼 */
 #calendar {
 	display: none;
-	width: 100%;
-	padding: 0;
-	position: absolute;
-	overflow-y: auto;
-	/* 상부 2/3 */
-	z-index: 2;
-}
-
-#calendar.show {
-	display: block;
-}
-
-/* 달력 배치 */
-.flatpickr-calendar {
-	width: 400px;
-    margin: 0 auto;
 }
 
 /* 달력 스타일 */
+.flatpickr-calendar {
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.flatpickr-calendar .flatpickr-days .dayContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0;
+    width: 100% !important;
+    min-width: 400px !important;
+    justify-items: center;
+    align-items: center;
+}
+
+.flatpickr-day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.flatpickr-day:hover,
+.flatpickr-day.selected,
+.flatpickr-day.today {
+    background-color: #e8e8e8;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .flatpickr-months {
-	height: 45px;
+    height: 45px;
     background-color: white;
     font-size: 0.8rem;
+}
+
+.flatpickr-calendar .flatpickr-months,
+.flatpickr-calendar .flatpickr-weekdays,
+.flatpickr-calendar .flatpickr-days {
+    width: 100% !important;
 }
 
 

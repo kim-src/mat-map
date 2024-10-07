@@ -41,7 +41,9 @@
 					<div class="book-form-title fw-bolder">📌 날짜 선택</div>
 					<div class="form-calendar">
 						<div class="placeholder-calendar form-control">예약 날짜를 선택하세요.</div>
-						<input type="text" id="calendar" class="placeholder-calendar form-control"/>
+						<div id="calendar-container">
+						    <input type="text" id="calendar"/>
+						</div>
 					</div>
 				</div>
 				
@@ -224,6 +226,7 @@
 			dateFormat: "Y-m-d",
 	        defaultDate: "today",
 	        inline: true,
+	        appendTo: document.getElementById('calendar-container'),
         	onChange: function(selectedDates, dateStr, instance) {
                 // 선택된 날짜가 dateStr에 저장되며 이를 placeholder-calendar에 적용
                 const placeholderCalendar = document.querySelector('.placeholder-calendar');
